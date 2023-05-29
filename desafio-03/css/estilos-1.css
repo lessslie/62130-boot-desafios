@@ -1,0 +1,145 @@
+
+:root {
+  --pink: #e11364;
+  --light-pink: #e96093;
+  --black-pink: #bc105c;
+  --white: #fafafb;
+  --green: #2c8f20;
+}
+
+body {
+  background-color: var(--pink);
+  margin: 0;
+  padding: 0px 1.5rem 0px;
+}
+a{
+  text-decoration: none;
+}
+
+.header {
+  background-color: var(--black-pink);
+  width: 80%;
+  margin: 0 auto;
+  padding: 0px 3rem 0px 1.5rem;
+  border-left: .3125rem var(--white) solid;
+  border-right: .3125rem var(--white) solid;
+}
+
+.header-title {
+  color: var(--white);
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-section {
+  background-color: var(--black-pink);
+  padding: 2rem 3rem 2rem 2rem ;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: .3125rem;
+  -webkit-border-radius: .3125rem;
+  -moz-border-radius: .3125rem;
+  -ms-border-radius: .3125rem;
+  -o-border-radius: .3125rem;
+}
+.main-title2 {
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .0125rem;
+    word-spacing: .0187rem;
+    font-weight: 600;
+}
+.main-article {
+    background-color: var(--white);
+    width: 100%;
+    margin: 2rem auto;
+    border-radius: .3125rem;
+    padding: .5rem;
+
+    -webkit-border-radius: .3125rem;
+    -moz-border-radius: .3125rem;
+    -ms-border-radius: .3125rem;
+    -o-border-radius: .3125rem;
+}
+
+.main-title3 {
+    color: var(--black-pink);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1875rem;
+    letter-spacing: .0125rem;
+    word-spacing: .0187rem;
+    font-weight: 800;
+    padding: 16px;
+    text-align: right;
+    border-bottom: .125rem var(--black-pink) dotted;
+}
+.main-img{
+    width: 100%;
+}
+.main-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .875rem;
+}
+
+.main-button {
+    background-color: var(--green);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+    border: none;
+    padding: 11.2px;
+    border-radius: .3125rem;
+    text-align: center;
+    -webkit-border-radius: .3125rem;
+    -moz-border-radius: .3125rem;
+    -ms-border-radius: .3125rem;
+    -o-border-radius: .3125rem;
+}
+.main-button a:link {
+  color: var(--white); 
+}
+
+.main-button a:visited {
+  color: var(--white); 
+}
+
+
+.main-button:hover {
+  background-color: var(--black-pink);
+  cursor: pointer;
+}
+
+.main-button a:active {
+  color: var(--white); 
+}
+
+
+.main-button-center {
+    text-align: center;
+    margin: 1.3rem 1rem 1rem;
+}
+
+.footer {
+    background-color: var(--light-pink);
+    padding: 1rem 3rem 1rem 1.5rem;
+    width: 80.5%;
+    margin: 1rem auto 1rem;
+    border-radius: 5px;
+}
+
+
+.footer-paragraph {
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7125rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Pseudo-Classes : /
+
+/ Pseudo-Elements :: */
