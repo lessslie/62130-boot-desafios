@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&family=Roboto:ital,wght@0,500;1,100;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root{
+    --fondo-negro:rgb(31, 32, 35);
+    --verde-header:rgb(77, 109, 99);
+    --active-input:rgb(166, 193, 185);
+    --white:#FFFFFF;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--fondo-negro);
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+main{
+    margin: auto;
+}
+h1{
+    border-top:10px outset  var(--verde-header);
+    border-bottom:10px solid var(--verde-header);
+    padding: 5px;
+    margin: 2rem;
+}
+.p-sexo, .genero{
+    text-align: center;
+    margin: 1rem;
+    word-spacing: 5px;
+}
+
+.title-2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size:medium;
+    font-weight: 500;
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    background-color: var(--verde-header);
+    border-radius: 5px;
+    padding: 5px;
+}
+span{
+    font-size: 1.3rem;
+}
+.fieldset-h2{
+    position: relative;
+    padding: 25px;
+}
+.form-group{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    padding: 1rem;
+    width: 70%;
+    color: #FFFFFF;
+}
+
+
+fieldset{
+    border: none;
+    background-color:var(--active-input);
+    border-radius: 3px;
+}
+::-webkit-input-placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #a19f9f;
+    text-align: right;
+    padding-right: 10px;
+}
+.circulos{
+    text-align: center;
+    margin: 2rem auto 2rem;
+    border-bottom: var(--verde-header) 10px dotted;
+   /*  border: none; */
+    width: 50%;
+    border-top: 3px;
+}
+input:focus{
+    background-color: var(--verde-header);
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+input{
+    border-radius: 2px;
+    border: none;
+    font-size: 1rem;
+    padding: 5px;
+    color:black;
+    text-align-last: end;
+}
+#nacionalidad{
+    border-radius: 2px;
+    border: none;
+    font-size: 1rem;  
+    padding: 5px;
+}
+textarea:focus{
+    background-color: var(--verde-header);
+}
+textarea{
+    color: #FFFFFF;
+}
+label,p{
+    color: black;
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+}
+.terms{
+    padding: 5px;
+    margin: 15px;
+}
+.terms-d label{
+    color: #FFFFFF;
+}
+.terms-d {
+    color: #FFFFFF;
+    text-align: start;
+}
+button{
+    background-color: var(--verde-header);
+    color: #a19f9f;
+    padding: 8px;
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.buttons{
+    text-align: center;
+}
+.sedes{
+    text-align: start;
+}

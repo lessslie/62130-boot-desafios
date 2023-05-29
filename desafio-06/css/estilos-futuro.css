@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root{
+--color-amarillo:#ffee93;
+--color-marron:#ffc09f;
+--color-palido:#fcf5c7;
+--color-azul:#a0ced9;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./../asset/img/hombre-gym.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+font-family: 'Permanent Marker', cursive;
+}
+
+header{
+    text-align: center;
+}
+main{
+    margin: auto;
+    width: 80%;
+    padding: 1rem;
+}
+h1{
+    padding: 5px;
+    margin: 2rem;
+    font-weight: 800;
+    color:var(--color-marron);
+    text-shadow:1px 1px 2px var(--color-azul);
+}
+.p-sexo, .genero{
+    text-align: center;
+    margin: 1rem;
+    word-spacing: 5px;
+}
+
+.title-2{
+    text-transform: uppercase;
+    font-size:medium;
+    font-weight: 500;
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ffc19f69;
+    text-shadow:1px 1px 2px var(--color-marron);
+
+}
+
+span{
+    font-size: 1.3rem;
+}
+.fieldset-h2{
+    position: relative;
+    padding: 25px;
+}
+.fieldset-h2:hover{
+    transform: scale(1.1);
+}
+
+.form-group{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-shadow:1px 1px 2px var(--color-marron);
+}
+
+fieldset{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    text-shadow:1px 1px 2px var(--color-marron);
+}
+::-webkit-input-placeholder {
+    font-size: 1rem;
+    text-align: right;
+    padding-right: 10px;
+}
+
+input:focus{
+    border-radius: 5px;
+    background-color: var(--color-palido);
+}
+input{
+    border-radius: 2px;
+    font-size: 1rem;
+    padding: 5px;
+    color:black;
+    background-color: var(--color-azul);
+    text-align: center;
+}
+#nacionalidad{
+    border-radius: 2px;
+    font-size: 1rem;  
+    padding: 5px;
+    background-color:var(--color-palido);
+    font-family: 'Permanent Marker', cursive;
+}
+textarea:focus{
+    background-color: var(--color-palido);
+}
+textarea{
+/*    border-radius: 1px solid var(--color-azul); */
+    background-color:var(--color-rosa-claro) ;
+}
+label,p{
+    color: black;
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+    background-color: #a0ced954;
+}
+.terms{
+    padding: 5px;
+    margin: 15px;
+}
+.terms-d label{
+    color: #FFFFFF;
+}
+.terms-d {
+    color: #ffffff;
+    text-align: start;
+}
+button{
+    background-color:var(--color-marron);
+    padding: 8px;
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 800;
+}
+.buttons{
+    text-align: center;
+}
+.boton:hover{
+    transform: scale(1.1);
+    background-color: var(--color-azul);
+}
+.sedes{
+    text-align: start;
+}
